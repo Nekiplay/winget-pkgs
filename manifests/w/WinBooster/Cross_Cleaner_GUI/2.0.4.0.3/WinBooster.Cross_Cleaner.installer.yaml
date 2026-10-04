@@ -1,8 +1,8 @@
 # Created with komac v2.16.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
-PackageIdentifier: WinBooster.Cross_Cleaner
-PackageVersion: 2.0.4.0.3
+PackageIdentifier: WinBooster.Cross_Cleaner_GUI
+PackageVersion: 2.0.4.1
 InstallerLocale: en-US
 InstallerType: inno
 InstallModes:
@@ -18,8 +18,8 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.0.3/Cross_Cleaner_Setup.exe
-  InstallerSha256: 5d4f9ed2880e5cce62c0b528f8e2116f4197595018a45f7f35063e583abd10bf
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1/Cross_Cleaner_Setup.exe
+  InstallerSha256: 9b8a2ddef0b729c2627d1fe859a64c74f390bc3103377b565d8c7994eecb6d8b
   InstallerSwitches:
     Custom: /CURRENTUSER
   Dependencies:
@@ -28,8 +28,8 @@ Installers:
     - PackageIdentifier: Microsoft.VCRedist.2015+.x86
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.0.3/Cross_Cleaner_Setup.exe
-  InstallerSha256: 5d4f9ed2880e5cce62c0b528f8e2116f4197595018a45f7f35063e583abd10bf
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1/Cross_Cleaner_Setup.exe
+  InstallerSha256: 9b8a2ddef0b729c2627d1fe859a64c74f390bc3103377b565d8c7994eecb6d8b
   InstallerSwitches:
     Custom: /ALLUSERS
   Dependencies:

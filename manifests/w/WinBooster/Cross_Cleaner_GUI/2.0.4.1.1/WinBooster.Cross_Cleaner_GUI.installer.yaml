@@ -18,7 +18,7 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1/Cross_Cleaner_Setup.exe
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.1/Cross_Cleaner_Setup.exe
   InstallerSha256: 8aba262affba82897388f44f473b168da1192b9248a268b3b2041164aaf48f63
   InstallerSwitches:
     Custom: /CURRENTUSER
@@ -28,7 +28,7 @@ Installers:
     - PackageIdentifier: Microsoft.VCRedist.2015+.x86
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1/Cross_Cleaner_Setup.exe
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.1/Cross_Cleaner_Setup.exe
   InstallerSha256: 8aba262affba82897388f44f473b168da1192b9248a268b3b2041164aaf48f63
   InstallerSwitches:
     Custom: /ALLUSERS

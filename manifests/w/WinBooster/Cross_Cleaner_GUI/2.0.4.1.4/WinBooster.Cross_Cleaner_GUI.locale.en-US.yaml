@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: WinBooster.Cross_Cleaner_GUI
-PackageVersion: 2.0.4.1.3
+PackageVersion: 2.0.4.1.4
 PackageLocale: en-US
 Publisher: Neki_play
 PublisherUrl: https://github.com/WinBooster
@@ -27,7 +27,7 @@ ReleaseNotes: |-
   Downloads Version Platform
   ✨ What's New
   🛠 Technical Updates
-  - GUI and TUI fixes
+  - Added Arm64 build
   👏 Contributors Hall of Fame
   Special thanks to our amazing contributors who made this release possible:
   - @Nekiplay - Core improvements and feature implementations

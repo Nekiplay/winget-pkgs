@@ -1,0 +1,62 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: WinBooster.Cross_Cleaner_GUI
+PackageVersion: 2.0.4.1.4
+InstallerLocale: en-US
+InstallerType: inno
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: '{63C69122-AC80-4866-B328-5C3188A01F76}_is1'
+ReleaseDate: 2026-09-16
+AppsAndFeaturesEntries:
+- ProductCode: '{63C69122-AC80-4866-B328-5C3188A01F76}_is1'
+ElevationRequirement: elevatesSelf
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.4/Cross_Cleaner_Setup.exe
+  InstallerSha256: 242d3fefb07fe5afca9630d584673fcd812ae850d425b024a0da872496ef08a1
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  Dependencies:
+    PackageDependencies:
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x86
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.4/Cross_Cleaner_Setup.exe
+  InstallerSha256: 242d3fefb07fe5afca9630d584673fcd812ae850d425b024a0da872496ef08a1
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  Dependencies:
+    PackageDependencies:
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x86
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Cross Cleaner'
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.4/Cross_Cleaner_Setup_Arm64.exe
+  InstallerSha256: 3939f594e818d5aead277637282a46b9f81f6462523bf74b4e5d072cbf2ac4b9
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  Dependencies:
+    PackageDependencies:
+    - PackageIdentifier: Microsoft.VCRedist.2015+.arm64
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.4/Cross_Cleaner_Setup_Arm64.exe
+  InstallerSha256: 3939f594e818d5aead277637282a46b9f81f6462523bf74b4e5d072cbf2ac4b9
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  Dependencies:
+    PackageDependencies:
+    - PackageIdentifier: Microsoft.VCRedist.2015+.arm64
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Cross Cleaner'
+ManifestType: installer
+ManifestVersion: 1.12.0

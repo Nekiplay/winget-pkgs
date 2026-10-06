@@ -11,7 +11,7 @@ Commands:
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/WinBooster/Cross-Cleaner/releases/download/v2.0.4.1.4/Windows-Cross_Cleaner_TUI.exe
-  InstallerSha256: 7b1ee0aecaa189979fc84beed430362e0a1187d71154310404ca7a0d3616b468
+  InstallerSha256: 0830f908029a19fa1d88212342582b1faee3d64cb8bfb194349e5f320a005abc
   Dependencies:
     PackageDependencies:
     - PackageIdentifier: Microsoft.VCRedist.2015+.x64

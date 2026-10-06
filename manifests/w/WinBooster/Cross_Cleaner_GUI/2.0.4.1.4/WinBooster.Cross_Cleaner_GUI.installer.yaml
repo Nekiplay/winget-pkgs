@@ -11,7 +11,7 @@ InstallModes:
 - silentWithProgress
 UpgradeBehavior: install
 ProductCode: '{63C69122-AC80-4866-B328-5C3188A01F76}_is1'
-ReleaseDate: 2026-11-6
+ReleaseDate: 2026-11-06
 AppsAndFeaturesEntries:
 - ProductCode: '{63C69122-AC80-4866-B328-5C3188A01F76}_is1'
 ElevationRequirement: elevatesSelf
